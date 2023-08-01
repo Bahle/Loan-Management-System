@@ -1,0 +1,53 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js dev
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Yarn\bin\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Users\Azar\Anaconda3\Scripts;C:\curl-7.65.1-win64-mingw\bin;D:\users\azar\anaconda3;C:\ProgramData\chocolatey\bin;D:\flutter\bin;D:\Program Files\Java\jdk-11.0.17\bin;C:\xampp\mysql\bin;D:\doctl-1.37.0-windows-amd64;C:\Users\Azar\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\android-sdk-windows\platform-tools;D:\Program Files\Git\cmd;D:\curl-7.79.1-win64-mingw\bin;D:\Program Files\GitHub CLI\;D:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\Program Files\nodejs\;D:\Users\Azar\AppData\Local\Programs\Python\Python311\Scripts\;D:\Users\Azar\AppData\Local\Programs\Python\Python311\;C:\Users\Azar\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Azar\AppData\Local\Yarn\bin;C:\Program Files\Heroku\bin;C:\Users\Azar\AppData\Roaming\Composer\vendor\bin;C:\Users\Azar\AppData\Local\hyper\app-3.0.0\resources\bin;D:\Users\Azar\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\Azar\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Azar\AppData\Local\Microsoft\WindowsApps;C:\Users\Azar\.dotnet\tools;C:\Users\Azar\AppData\Local\Programs\Filestar;C:\Users\Azar\AppData\Roaming\Filestar\aliases;C:\Users\Azar\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "redemption",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js", // Your regular start script
+      "dev": "nodemon --watch '*.js' index.js", // Watch for changes in all .js files and run the server with nodemon
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "body-parser": "^1.20.2",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "multer": "^1.4.5-lts.1",
+      "mysql": "^2.18.1",
+      "nodemon": "^3.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: D:\Users\Azar\Projects\Node\Redemption\package.json: Unexpected token / in JSON at position 115
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
